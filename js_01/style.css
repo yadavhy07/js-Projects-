@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,body{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #414141;
+}
+#main input{
+    background-color: #414141;
+}
+li button{
+    background-color: #414141;
+}

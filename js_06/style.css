@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main{
+  width: 40vw;
+  height: 60vh;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+#form{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+#form #input-box{
+  border: none;
+  background-color: cadetblue;
+  color: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+#form #searchbtn{
+  border: none;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#cityandtym{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#cityandtym h1{
+  margin-top: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#deg{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#deg h2{
+  font-size: 12vw;
+}
+#footer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#footer h5{
+  font-size: 4vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

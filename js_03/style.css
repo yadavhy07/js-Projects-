@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #944e63;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  width: 22%;
+  height: 60%;
+  background-color: #fff;
+  border-radius: 5px;
+  background-image: url(https://cdn.pixabay.com/photo/2019/11/06/05/57/woman-4605248_1280.jpg);
+  background-size: cover;
+  position: relative;
+}
+#box i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition-duration: 0.5s;
+  transform: translate(-50%, -50%) scale(0);
+  font-size: 5vw;
+  opacity: 0.8;
+}
